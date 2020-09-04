@@ -24,14 +24,14 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/torusresearch/go-ethereum/cmd/utils"
+	"github.com/torusresearch/go-ethereum/crypto"
+	"github.com/torusresearch/go-ethereum/log"
+	"github.com/torusresearch/go-ethereum/p2p/discover"
+	"github.com/torusresearch/go-ethereum/p2p/discv5"
+	"github.com/torusresearch/go-ethereum/p2p/enode"
+	"github.com/torusresearch/go-ethereum/p2p/nat"
+	"github.com/torusresearch/go-ethereum/p2p/netutil"
 )
 
 func main() {

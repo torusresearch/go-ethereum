@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/torusresearch/go-ethereum/common"
+	"github.com/torusresearch/go-ethereum/crypto"
+	"github.com/torusresearch/go-ethereum/log"
+	"github.com/torusresearch/go-ethereum/rlp"
 )
 
 var (

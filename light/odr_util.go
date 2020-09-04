@@ -21,12 +21,12 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/torusresearch/go-ethereum/common"
+	"github.com/torusresearch/go-ethereum/core"
+	"github.com/torusresearch/go-ethereum/core/rawdb"
+	"github.com/torusresearch/go-ethereum/core/types"
+	"github.com/torusresearch/go-ethereum/crypto"
+	"github.com/torusresearch/go-ethereum/rlp"
 )
 
 var sha3Nil = crypto.Keccak256Hash(nil)

@@ -25,16 +25,16 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/torusresearch/go-ethereum/accounts"
+	"github.com/torusresearch/go-ethereum/accounts/keystore"
+	"github.com/torusresearch/go-ethereum/accounts/scwallet"
+	"github.com/torusresearch/go-ethereum/accounts/usbwallet"
+	"github.com/torusresearch/go-ethereum/common"
+	"github.com/torusresearch/go-ethereum/common/hexutil"
+	"github.com/torusresearch/go-ethereum/internal/ethapi"
+	"github.com/torusresearch/go-ethereum/log"
+	"github.com/torusresearch/go-ethereum/rlp"
+	"github.com/torusresearch/go-ethereum/signer/storage"
 )
 
 const (

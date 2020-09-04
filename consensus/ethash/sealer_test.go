@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/torusresearch/go-ethereum/common"
+	"github.com/torusresearch/go-ethereum/core/types"
+	"github.com/torusresearch/go-ethereum/internal/testlog"
+	"github.com/torusresearch/go-ethereum/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

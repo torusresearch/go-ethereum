@@ -23,13 +23,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/torusresearch/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/torusresearch/go-ethereum/common"
+	"github.com/torusresearch/go-ethereum/crypto"
+	"github.com/torusresearch/go-ethereum/internal/utesting"
+	"github.com/torusresearch/go-ethereum/p2p/discover"
+	"github.com/torusresearch/go-ethereum/p2p/enode"
+	"github.com/torusresearch/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

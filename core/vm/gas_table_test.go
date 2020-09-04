@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/torusresearch/go-ethereum/common"
+	"github.com/torusresearch/go-ethereum/common/hexutil"
+	"github.com/torusresearch/go-ethereum/core/rawdb"
+	"github.com/torusresearch/go-ethereum/core/state"
+	"github.com/torusresearch/go-ethereum/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

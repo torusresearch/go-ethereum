@@ -17,10 +17,10 @@
 package graphql
 
 import (
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/node"
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
+	"github.com/torusresearch/go-ethereum/internal/ethapi"
+	"github.com/torusresearch/go-ethereum/node"
 )
 
 // New constructs a new GraphQL service instance.

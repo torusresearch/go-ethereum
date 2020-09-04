@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/node"
 	"github.com/stretchr/testify/assert"
+	"github.com/torusresearch/go-ethereum/eth"
+	"github.com/torusresearch/go-ethereum/node"
 )
 
 func TestBuildSchema(t *testing.T) {
